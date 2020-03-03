@@ -50,7 +50,7 @@ API requests are made via HTTPS using the {your-tenant-name}.ap.qlikcloud.com su
 Note: Ensure you have 'Developer' as a role to be able to generate new API keys. To add 'Developer' to your roles, go to My Account > Administration > Users > Edit Roles > Select 'Developer'.
 
 ### Installing
-1. Clone the repo `https://github.com/SoftwareAG/webmethods.io-Capsule-CRM-Community-Connector.git`.
+1. Clone the repo `https://github.com/SoftwareAG/webmethods.io-Qlik_Sense-Community-Connector.git`.
 2. Run `npm install -g @webmethodsio/wmiocli`.
 3. Login to your webmethods.io tenant using `wmio login`.
 4. Execute `wmio init` to get started.
