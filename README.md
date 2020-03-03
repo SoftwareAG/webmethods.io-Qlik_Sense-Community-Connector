@@ -48,6 +48,8 @@ API requests are made via HTTPS using the {your-tenant-name}.ap.qlikcloud.com su
 ![API](https://user-images.githubusercontent.com/16189220/75769152-aa674580-5d6b-11ea-89e9-032bbea5e561.png)
 
 Note: Ensure you have 'Developer' as a role to be able to generate new API keys. To add 'Developer' to your roles, go to My Account > Administration > Users > Edit Roles > Select 'Developer'.
+![roles](https://user-images.githubusercontent.com/16189220/75770068-434a9080-5d6d-11ea-9cdb-8c5378e8623f.png)
+
 
 ### Installing
 1. Clone the repo `https://github.com/SoftwareAG/webmethods.io-Qlik_Sense-Community-Connector.git`.
