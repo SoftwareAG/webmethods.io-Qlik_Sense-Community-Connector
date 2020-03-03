@@ -42,10 +42,10 @@ Note: If you have installed any other Node version on your system, you can:
 
 The connector has been built with [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI tool, which must be installed. 
 
-### [Getting the API key](https://developer.capsulecrm.com/v2/overview/authentication)
+### Getting the API key
 API requests are made via HTTPS using the {your-tenant-name}.ap.qlikcloud.com subdomain. Each request must be authenticated with a user's Bearer token containing a valid API key. As this connector is a one-off integration for internal use, we can generate an API key directly from our Qlik Sense account. You can create these from the My Account > Settings > API Keys page in your Qlik Sense account:
 
-![API Key](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
+![API](https://user-images.githubusercontent.com/16189220/75769152-aa674580-5d6b-11ea-89e9-032bbea5e561.png)
 
 Note: Ensure you have 'Developer' as a role to be able to generate new API keys. To add 'Developer' to your roles, go to My Account > Administration > Users > Edit Roles > Select 'Developer'.
 
