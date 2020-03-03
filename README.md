@@ -13,7 +13,7 @@ The actions supported by this community connector are:
 
 #### 1. [Create a Collection](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CollectionsAPI/Content/methods-post-collections.htm)
 #### 2. [Get Collection](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CollectionsAPI/Content/methods-get-collections.htm)
-#### 3. [Delete App](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=22)
+#### 3. [Delete App](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=10)
 #### 4. [Get App Info](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=12)
 #### 5. [Get App Metadata](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=9)
 #### 6. [Get App Privileges](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=26)
