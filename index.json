@@ -1,0 +1,46 @@
+{
+  "name": "Qlik_Sense",
+  "description": "Qlik_Sense",
+  "triggers": [],
+  "actions": [
+    "/v1/retrive_a_list_of_audit_event",
+    "/v1/retrive_a_specific_audit_event",
+    "/v1/reload_an_app",
+    "/v1/retrive_reload_status_of_an_app",
+    "/v1/retrive_all_reload_status",
+    "/v1/create_a_collection",
+    "/v1/get_collection",
+    "/v1/get_details_of_a_specific_collection",
+    "/v1/delete_app",
+    "/v1/get_app_info",
+    "/v1/get_app_metadata",
+    "/v1/get_app_privileges"
+  ],
+  "version": 1,
+  "auth_type": "custom",
+  "docs_link": "http://docs.example.com",
+  "appId": "6f362d0f-0559-4306-8514-4dcb4637f75a",
+  "guid": "e51e282e-e163-4277-ab6b-c6850765e163",
+  "connectionUid": "qlik_sense_1583216796741",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "audit",
+      "action_id": "/v1/retrive_a_specific_audit_event",
+      "field_id": "aid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "status",
+      "action_id": "/v1/retrive_reload_status_of_an_app",
+      "field_id": "sid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "collection",
+      "action_id": "/v1/get_details_of_a_specific_collection",
+      "field_id": "cid",
+      "dependencies": []
+    }
+  ]
+}

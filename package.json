@@ -1,0 +1,9 @@
+{
+  "name": "qlik_sense",
+  "version": "1.0.0",
+  "description": "Qlik_Sense",
+  "dependencies": {
+    "request": "2.55.0",
+    "@webmethodsio/cli-sdk": "*"
+  }
+}
