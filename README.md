@@ -1,22 +1,28 @@
 # webmethods.io-Capsule-CRM-Community-Connector
-This is a Webmethods.io community connector for [Qlik Sense](https://www.qlik.com/us/trial/qlik-sense-business), a self-service data discovery and analysis tool which focuses on ease of use for the user. The connector uses the [Quick Engine REST API](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=38#V1) to make HTTP requests to access or modify a resource. 
+This is a Webmethods.io community connector for [Qlik Sense](https://www.qlik.com/us/trial/qlik-sense-business), a self-service data discovery and analysis tool which focuses on ease of use for the user. The connector uses the 
+- [Quick Engine REST API](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=38#V1)
+- [Qlik Sense Audit Service API](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/Sense_AuditServiceAPI/AuditServiceAPI-Introduction.htm)
+- [Qlik Sense Reload Service API](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/Sense_ReloadAPI/ReloadServiceAPI-Introduction.htm)
+- [Qlik Sense Collections Service API](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/Sense_CollectionsAPI/CollectionsServiceAPI-Introduction.htm)
+to make HTTP requests to access or modify a resource. 
 
-![image](https://user-images.githubusercontent.com/16189220/75323654-4fc97780-589b-11ea-94de-83d9d9a1e955.png)
+![logo](https://user-images.githubusercontent.com/16189220/75766576-62deba80-5d67-11ea-911f-0d55970fee3a.png)
+
 
 The actions supported by this community connector are:
 
-#### 1. [List Cases](https://developer.capsulecrm.com/v2/operations/Case)
-#### 2. [List Cases by Party](https://developer.capsulecrm.com/v2/operations/Case)
-#### 3. [List Employees](https://developer.capsulecrm.com/v2/operations/Party)
-#### 4. [List Parties](https://developer.capsulecrm.com/v2/operations/Party)
-#### 5. [List Task Categories](https://developer.capsulecrm.com/v2/operations/Task)
-#### 6. [List Users](https://developer.capsulecrm.com/v2/operations/User)
-#### 7. [Show Case](https://developer.capsulecrm.com/v2/operations/Case)
-#### 8. [Show Current User](https://developer.capsulecrm.com/v2/operations/User)
-#### 9. [Show Party](https://developer.capsulecrm.com/v2/operations/Party)
-#### 10. [Show Task Category](https://developer.capsulecrm.com/v2/operations/Task)
-#### 11. [Show User](https://developer.capsulecrm.com/v2/operations/User)
-#### 12. [List Tasks](https://developer.capsulecrm.com/v2/operations/Task)
+#### 1. [Create a Collection](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CollectionsAPI/Content/methods-post-collections.htm)
+#### 2. [Get Collection](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CollectionsAPI/Content/methods-get-collections.htm)
+#### 3. [Delete App](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=22)
+#### 4. [Get App Info](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=12)
+#### 5. [Get App Metadata](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=9)
+#### 6. [Get App Privileges](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=26)
+#### 7. [Get Details of a Specific Collection](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CollectionsAPI/Content/methods-get-collections-collectionId.htm)
+#### 8. [Reload an App](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/QIXDataReloadAPI/Content/methods-post-v1-reloads.htm)
+#### 9. [Retrieve a List of Audit Events](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/AuditAPI/Content/methods-get-audits.htm)
+#### 10. [Retrieve a Specific Audit Event](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/AuditAPI/Content/methods-get-audits-id.htm)
+#### 11. [Retrieve All Reload Status](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/QIXDataReloadAPI/Content/methods-get-v1-reloads.htm)
+#### 12. [Retrieve Reload Status of an App](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/QIXDataReloadAPI/Content/methods-get-v1-reloads-reloadId.htm)
 
 Learn about other supported actions [here](https://developer.capsulecrm.com/v2/overview/getting-started).
 
