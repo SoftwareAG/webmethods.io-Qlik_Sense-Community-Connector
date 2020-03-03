@@ -24,7 +24,7 @@ The actions supported by this community connector are:
 #### 11. [Retrieve All Reload Status](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/QIXDataReloadAPI/Content/methods-get-v1-reloads.htm)
 #### 12. [Retrieve Reload Status of an App](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/QIXDataReloadAPI/Content/methods-get-v1-reloads-reloadId.htm)
 
-Learn about other supported actions [here](https://developer.capsulecrm.com/v2/overview/getting-started).
+Learn about other supported actions [here](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/API%20reference%20for%20cloud%20environments.htm).
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -43,9 +43,11 @@ Note: If you have installed any other Node version on your system, you can:
 The connector has been built with [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI tool, which must be installed. 
 
 ### [Getting the API key](https://developer.capsulecrm.com/v2/overview/authentication)
-API requests are made via HTTPS using the api.capsulecrm.com subdomain. Each request must be authenticated with a user's Bearer token. As If this connector is a one-off integration for internal use, we can generate a token directly from our Capsule account. You can create these from the My Preferences > API Authentication Tokens page in your Capsule account:
+API requests are made via HTTPS using the {your-tenant-name}.ap.qlikcloud.com subdomain. Each request must be authenticated with a user's Bearer token containing a valid API key. As this connector is a one-off integration for internal use, we can generate an API key directly from our Qlik Sense account. You can create these from the My Account > Settings > API Keys page in your Qlik Sense account:
 
 ![API Key](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
+
+Note: Ensure you have 'Developer' as a role to be able to generate new API keys. To add 'Developer' to your roles, go to My Account > Administration > Users > Edit Roles > Select 'Developer'.
 
 ### Installing
 1. Clone the repo `https://github.com/SoftwareAG/webmethods.io-Capsule-CRM-Community-Connector.git`.
