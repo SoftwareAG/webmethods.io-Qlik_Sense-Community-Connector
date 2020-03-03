@@ -64,7 +64,7 @@ To test, you can execute `wmio test`.
 ## Deployment
 Execute `wmio deploy` to deploy this connector to your webmethods.io tenant. And `wmio unpublish` to unpublish the published connector app along with triggers and actions associated with the app.
 
-![Capsule CRM](https://user-images.githubusercontent.com/16189220/75323330-ab473580-589a-11ea-8e20-0d54dc270a8e.png)
+![Qlik Connecto](https://user-images.githubusercontent.com/16189220/75769324-fd40fd00-5d6b-11ea-9f4b-385ba2814347.png)
 
 ## Built With
 Node v8.14.0 and [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI.
