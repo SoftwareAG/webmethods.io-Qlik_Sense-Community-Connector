@@ -1,10 +1,10 @@
 # webmethods.io-Capsule-CRM-Community-Connector
-This is a Webmethods.io community connector for [Qlik Sense](https://www.qlik.com/us/trial/qlik-sense-business), a self-service data discovery and analysis tool which focuses on ease of use for the user. The connector uses the 
+This is a Webmethods.io community connector for [Qlik Sense](https://www.qlik.com/us/trial/qlik-sense-business), a self-service data discovery and analysis tool which focuses on ease of use for the user. The connector uses the following APIs to make HTTP requests to access or modify a resource:
 - [Quick Engine REST API](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=38#V1)
 - [Qlik Sense Audit Service API](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/Sense_AuditServiceAPI/AuditServiceAPI-Introduction.htm)
 - [Qlik Sense Reload Service API](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/Sense_ReloadAPI/ReloadServiceAPI-Introduction.htm)
 - [Qlik Sense Collections Service API](https://help.qlik.com/en-US/sense-developer/February2020/Subsystems/CloudAPI/Content/Sense_CloudAPIs/Sense_CollectionsAPI/CollectionsServiceAPI-Introduction.htm)
-to make HTTP requests to access or modify a resource. 
+
 
 ![logo](https://user-images.githubusercontent.com/16189220/75766576-62deba80-5d67-11ea-911f-0d55970fee3a.png)
 
