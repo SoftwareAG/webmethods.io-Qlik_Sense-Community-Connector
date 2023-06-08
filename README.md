@@ -1,3 +1,5 @@
+# !!! Archived!!! This repository is no longer relevant!
+
 # webmethods.io-Qlik-Sense-Community-Connector
 This is a Webmethods.io community connector for [Qlik Sense](https://www.qlik.com/us/trial/qlik-sense-business), a self-service data discovery and analysis tool which focuses on ease of use for the user. The connector uses the following APIs to make HTTP requests to access or modify a resource:
 - [Quick Engine REST API](https://help.qlik.com/en-US/sense-developer/February2020/APIs/QIXAPI/index.html?page=38#V1)
